@@ -11,7 +11,7 @@
 	<groupId>com.user-management-system</groupId>
 	<artifactId>user-management-system</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>user-management-system</name>
 	<description>User Management Project for Spring Boot</description>
 	<properties>

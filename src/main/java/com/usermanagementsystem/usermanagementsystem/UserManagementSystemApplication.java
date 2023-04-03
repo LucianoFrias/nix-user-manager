@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @SpringBootApplication
-public class UserManagementSystemApplication extends SpringBootServletInitializer {
+public class UserManagementSystemApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(UserManagementSystemApplication.class, args);
 	}
