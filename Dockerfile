@@ -1,4 +1,6 @@
-FROM ibm-semeru-runtimes:open-li-jre-focal
+FROM openjdk:11
+VOLUME /tmp
 EXPOSE 8080
-ADD ./target/*.jar ./app.jar
-CMD java -Ojava.security.egd=file:/dev/./urandon -jar app.jar
+ARG JAR_FILE=target/user-management-system-0.0.1-SNAPSHOT.jar
+ADD ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
