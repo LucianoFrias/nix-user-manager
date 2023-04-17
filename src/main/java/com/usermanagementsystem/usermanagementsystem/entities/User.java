@@ -3,7 +3,7 @@ package com.usermanagementsystem.usermanagementsystem.entities;
 import jakarta.persistence.*;
 
 @Entity
-@Table
+@Table(name = "user")
 public class User {
     @Id
     @SequenceGenerator(
