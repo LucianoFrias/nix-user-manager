@@ -1,4 +1,7 @@
 # nix-user-manager
+
+# There's a better version of this project made with NodeJS that features overall better security, click on this [link](https://github.com/LucianoFrias/nix-user-manager-node) to check it out!
+
 Hello! Welcome to Nix.
 This is an User Management System. You can add, delete or update users as much as you like.
 
