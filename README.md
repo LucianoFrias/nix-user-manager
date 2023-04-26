@@ -1,7 +1,6 @@
 # nix-user-manager
 Hello! Welcome to Nix.
 This is an User Management System. You can add, delete or update users as much as you like.
-Click [here](https://nix-user-manager-production-8a56.up.railway.app/tables.html) to visit the page!
 
 # Preview
 
